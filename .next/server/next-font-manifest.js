@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/anilsingh/Pictures/anil/portfolio/app/layout\":[]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"

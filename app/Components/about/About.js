@@ -62,7 +62,7 @@ const About = () => {
       </div>
         </div>
       </div>
-      <a href='https://drive.google.com/file/d/1kx-bHed3mqRBPtbuaUyfwKmhJ2CxVjZ1/view?usp=sharing' download={"Chetan's Resume"}>Download Resume</a>
+      <a href='https://drive.google.com/file/d/1kx-bHed3mqRBPtbuaUyfwKmhJ2CxVjZ1/view?usp=sharing' className='download-btn mt-4' download={"Chetan's Resume"}>Download Resume</a>
     </div>
     </div>
 
