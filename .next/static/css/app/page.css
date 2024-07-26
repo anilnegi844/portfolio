@@ -1,0 +1,819 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/Components/sidebar/Sidebar.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.aside{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: var(--body-color);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    width: 110px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+    transition: .3s;
+}
+aside.aside .nav {
+    padding: 20px 18px;
+}
+.nav__footer {
+    padding: 20px 18px;
+}
+.nav___list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    
+}
+
+.nav__link {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    font-weight: var(--font-bold) ;
+    transition: .3s;
+    text-decoration: none;
+    line-height: 2;
+}
+
+.nav__link:hover{
+    color: hsl(43, 100%, 68%)
+}
+
+.copyright {
+    color: hsl(245, 15%, 65%);
+    font-size: var(--small-font-size);
+    transform: rotate( -180deg);
+    writing-mode: vertical-rl;
+}
+
+.nav__toggle {
+    position: fixed;
+    top: 1.25rem;
+    left: 1.875rem;
+    cursor: pointer;
+    height: 40px;
+    width: 45px;
+    background-color: var(--body-color);
+    border: 1px solid #e8dfec;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: .3s;
+
+}
+
+@media screen and (max-width:1024px) {
+    .aside{
+         left:  -110px;
+    } 
+
+    .nav___toggle {
+        display: flex;
+    }
+
+    .nav___toggle-open {
+        left:140px;
+
+    }
+
+    .show-menu {
+        left: 0%;
+    }
+}  
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/Components/home/Home.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.home {
+  min-height: 100vh;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 1.875rem;
+  column-gap: 1.875rem;
+}
+
+.intro {
+    max-width: 540px;
+}
+
+.home__img {
+    margin-bottom: 1.5rem;
+}
+
+.home__name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+.home__socials {
+    display: flex;
+    -moz-column-gap: 1.75rem;
+         column-gap: 1.75rem;
+    margin: 1.5rem 0;
+}
+
+.home__social-link {
+    color: var(--title-color);
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.home__social-link:hover {
+    color: hsl(43, 100%, 68%);
+}
+
+.scroll__down{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0;
+    width: 100%;
+
+}
+
+.home__scroll-name {
+    font-size: var(--small-font-size);
+
+}
+
+.mouse{
+    border: 2px solid #454360;
+    display: block;
+    height: 1.6rem;
+    width: 1.25rem;
+    margin: auto;
+    margin-top: .75rem;
+    border-radius: 1rem;
+    position: relative;
+}
+.home__education {
+  font-size: 30px;
+}
+.home__social-link {
+  color: var(--title-color);
+  font-size: 1.6rem;
+  transition: .3s;
+}
+
+@keyframes ani-mouse {
+    0% {
+        top:29%;
+    }
+
+    15% {
+        top: 50%;
+    }
+    
+    50%{
+        top: 50%;
+    }
+
+    100%{
+        top: 29%;
+    }
+}
+.wheel {
+    background-color: var(--title-color);
+    border-radius: 100%;
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    top: .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: ani-mouse 2s linear infinite;
+
+}
+
+.shapes {
+    z-index: -1;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.shape{
+   position: absolute; 
+}
+
+.s1 {
+  left: 2%;
+  top: 10%;  
+}
+
+.s2 {
+    left: 18%;
+    top: 30%;  
+  }
+
+  .s3 {
+    left: 5%;
+    bottom: 30%;
+  }
+
+  .s4 {
+    left: 2%;
+    bottom: 10%;
+  }
+
+  .s5 {
+    left: 44%;
+    top: 10%;
+  }
+
+  .s6 {
+    left: 36%;
+    bottom: 10%;
+  }
+
+  .s7 {
+   top: 20%;
+   right: 25%;
+  }
+
+  .s8{
+    right: 24%;
+    bottom: 20%;
+
+  }
+
+  .s9{
+    right: 2%;
+    top: 10%;
+  }
+
+  .s10{
+    top: 45%;
+    right: 11%;
+  }
+
+  .s11{
+    bottom: 10%;
+    right: 2%;
+  }
+
+  @media screen and (max-width:1024px) {
+    .home__social-link {
+      font-size: 1.125rem ;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/Components/about/About.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.about__container {
+    grid-template-columns: 3fr 9fr;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+}
+
+.about__data{
+    padding: 1.875rem 2.875rem;
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+    align-items: flex-start;
+    position: relative;
+}
+
+.about__data::before {
+    content: '';
+    width: 0%;
+    height: 0%;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid var(--container-color) ;
+    position: absolute;
+    left: -0.93rem;
+    top: 20%;
+}
+
+.about__description {
+    margin-bottom: 1rem;
+    text-align: justify;
+
+}
+
+.about__skills{
+    row-gap: 1.25rem;
+
+}
+
+.skills__title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+
+}
+
+.skills__number{
+    line-height: 1.2;
+}
+
+.skills__bar,
+.skills__percentage {
+    height: 7px;
+    border-radius: 0.25rem;
+}
+
+.skills__bar {
+    background-color: #f1f1f1;
+}
+
+.skills__percentage {
+    display: block;
+    background-color: var(--first-color);
+}
+
+.development {
+    width: 90%;
+    background-color: rgb(255, 209, 92);
+}
+
+.ui__design {
+    width: 90%;
+    background-color: rgb(255, 76, 96);
+}
+
+.DSA {
+    width: 40%;
+    background-color: rgb(108, 108, 299);
+}
+
+.about__boxes {
+    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    justify-content: center;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+    margin-top: 4.35rem;
+}
+
+.about__box {
+    display: flex;
+    -moz-column-gap: 1.5rem;
+         column-gap: 1.5rem;
+}
+
+.about__icon {
+    font-size: 48px;
+    color: #dedeea;
+}
+
+.about__title{
+    font-size: 1.875rem;
+}
+
+.download-btn {
+    padding: 12px 2rem;
+    line-height: 1;
+    border-radius: 1.875rem;
+    border: 2px solid var(--first-color);
+    color: var(--first-color);
+    display: inline-block;
+    font-size: 20px;
+    background-color: #fff;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1024px) {
+    .about__container{
+         grid-template-columns: 720px;
+         justify-content: center;
+         row-gap: 1.875rem;
+    } 
+
+    .about__data::before {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        left:49%;
+        top: -20px;
+
+    }
+
+    .about__img {
+        justify-self: center;
+        height: 220px;
+        width: 225px;
+    }
+
+    .about__box {
+        flex-direction: column;
+        row-gap: .5rem;
+        text-align: center;
+    }
+}  
+
+@media screen and (max-width:768px) {
+    .about__container {
+        grid-template-columns: 350px;
+    }
+
+    .about__data::before {
+        left: 47%;
+    }
+
+    .about__data {
+        grid-template-columns: 1fr;
+        row-gap: 1.875rem;
+    }
+
+    .about__boxes {
+        grid-template-columns: repeat(2,150px);
+        row-gap: 1.5rem;
+        justify-content: center;
+        
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .about__container {
+        grid-template-columns: 320px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .about__container {
+        grid-template-columns: 1fr;
+    }
+}
+
+    .about__boxes {
+
+        grid-template-columns: 1fr;
+        
+    }
+
+  
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/Components/resume/Resume.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.resume__container {
+    grid-template-columns: repeat(2,1fr);
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+
+}
+
+.timeline {
+    background-color: var(--container-color);
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    position: relative;
+    box-shadow: var(--shadow);
+}
+
+.timeline__item{
+    position: relative;
+    padding-left: 3.125rem;
+    padding-bottom: 3.123rem;
+}
+
+.timeline__item:last-child
+{
+    padding-bottom: 0%;
+}
+
+.timeline__item::before{
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: var(--first-color);
+    position: absolute;
+    left: .25rem;
+    top: 0%;
+
+}
+
+.timeline .icon-briefcase,
+.timeline .icon-graduation {
+    position: absolute;
+    left: -0.4375rem;
+    top: 0%;
+    font-size: 38px;
+    color: var(--first-color);
+    background-color: var(--container-color);
+    padding: 0.4375rem 0;
+}
+
+.timeline__date {
+    color: #8b88b1;
+    font-size: var(--small-font);
+}
+
+.timeline__title {
+    font-size: var(--h3-font-size);
+    margin: 0.5rem 0 ;
+}
+
+.skillset {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 25px;
+    justify-content: space-evenly;
+    margin: 25px 0 50px;
+}
+.techLogo {
+    border: 1px solid hsl(0deg 0% 0%);
+    border-radius: 15px;
+    cursor: pointer;
+    height: 120px;
+    padding: 30px;
+    transition: all .3s ease-in-out;
+    width: auto;
+}
+.skillset abbr .techLogo:hover {
+    border: 2px solid #000;
+    box-shadow: 0 5px 20px 0 hsla(0,0%,100%,.4);
+    transform: scale(1.15);
+}
+
+ @media screen and (max-width: 1024) {
+    .resume__container {
+        grid-template-columns: 540px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+
+    .timeline__item::before {
+        left: 2px;
+    }
+ }
+
+
+ @media screen and (max-width: 576px) {
+    .resume__container {
+        grid-template-columns: 1fr;
+    }
+ }
+
+ @media screen and (max-width: 350px) {
+    .timeline__item {
+        padding-left: 1.875rem;
+        padding-bottom: 1.875rem;
+    }
+
+    .timeline__item::before 
+    {
+        left: 0%;
+    }
+
+    .timeline .icon-briefcase,
+    .timeline .icon-graduation {
+        left: -9px;
+    }
+
+    .timeline__text {
+        text-align: justify;
+    }
+
+    }
+
+    @media screen and (max-width: 576px) {
+
+        .about__container {
+            grid-template-columns: 320px;
+        }
+
+    }
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/Components/portfolio/Portfolio.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.work__filters {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+    margin-top: 2.5rem;
+}
+
+.work__item {
+    cursor: pointer;
+    font-weight: var(--font-bold);
+    transition: .3s;
+}
+
+.work__items:hover {
+    color: var(--first-color);
+}
+
+.work__container {
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.875rem;
+}
+
+.work__card{
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.work__mask {
+    background: #6c6ce5;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+    opacity: 0;
+
+}
+
+.work__card:hover .work__mask {
+    opacity: 0.9;
+}
+
+.work__category {
+    color: #fff;
+    background-color: var(--first-color);
+    border-bottom-left-radius: 0.98rem;
+    border-bottom-right-radius: 0.98rem;
+    position: absolute;
+    top: 0%;
+    left: 1.5rem;
+    font-size: var(--small-font-size);
+    display: inline-block;
+    padding: 0.19rem 0.625rem;
+    transform: translateY(-40px);
+    transition: .3s;
+}
+
+.work__title {
+    color: #fff;
+    font-size: var(--h3-font-size);
+    margin: 0 0 0.98rem;
+    padding: 0 1.25rem;
+    position: absolute;
+    top: 3.75rem;
+    transform: translateY(30px);
+    transition: .3s;
+    opacity: 0;
+}
+
+.work__button {
+    color:#fff;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    display: block;
+    background-color: #ffd15c;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    transition: .3s; 
+    opacity: 0;
+}
+
+.work__card:hover .work__button {
+    opacity: 1;
+}
+
+.work__card:hover .work__title,
+.work__card:hover .work__category {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 1024px) {
+
+        .work__filters {
+
+            justify-content: center;
+            
+        }
+        .work__container {
+        grid-template-columns: repeat(2,330px);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .work__container {
+        grid-template-columns: 310px;
+    }
+
+    .work__filters {
+        row-gap: .25rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .work__container {
+        grid-template-columns: 1fr;
+    }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/Components/contact/Contact.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.contact.section {
+    padding-bottom: 6.25rem;
+}
+
+.contact__container {
+    grid-template-columns: 4fr 8fr;
+    -moz-column-gap: 1.875rem;
+         column-gap: 1.875rem;
+}
+
+.contact__title {
+    font-size: var(--h3-font-size);
+    margin-top: 0.5rem;
+}
+
+.contact__form-group {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    -moz-column-gap: 1.5rem;
+         column-gap: 1.5rem;
+}
+
+.contact__form-div{
+    position: relative;
+    margin-bottom: 1.875rem;
+    height: 3.75rem;
+}
+
+.contact__form-input {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    box-shadow: var(--shadow);
+    background-color: var(--container-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    border-radius: 1.875rem;
+    padding: 0.625rem 1.875rem;
+    z-index: 1;
+
+}
+
+.contact__form-area {
+    height: 10.25rem;
+    resize: none;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .contact__container {
+        grid-template-columns: 300px 360px;
+        justify-content: center;
+    }
+
+    .contact__form-group {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact__container {
+        grid-template-columns: 310px;
+        row-gap: 1.875rem;
+    }
+    
+    .contact__info {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+        .about__container {
+            grid-template-columns: 320px;
+        }
+
+    }
+

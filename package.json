@@ -17,7 +17,7 @@
   "dependencies": {
     "@vercel/analytics": "^1.1.2",
     "autoprefixer": "10.4.15",
-    "bootstrap": "^3.4.1",
+    "bootstrap": "^5.3.3",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
