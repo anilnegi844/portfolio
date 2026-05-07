@@ -12,11 +12,11 @@ const Home = () => {
    <section className='home container grid px-5' id='home'>
    <div className='intro grid'>
     <h1 className='home__name'>Anil Singh</h1>
-    <span className='home__education'>
-      I am a Full-Stack UX Designer
+    <span className='home__education mb-3'>
+      Frontend Developer | UI/UX Designer
     </span>
 
-    <HeaderSocials/>
+    {/* <HeaderSocials/> */}
 
     <a href='#contact' className='primary-btn'>Hire Me</a>
     <ScrollDown/>

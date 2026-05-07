@@ -17,7 +17,7 @@ const About = () => {
     <div className='about__data'>
       <div className='about__info'>
         <p className='about__description'>
-        I am eager to pursue a dynamic career in IT, leveraging my software development and UX design skills in challenging and innovative projects.
+        Frontend Developer & UI/UX Designer with hands-on experience in WordPress, Shopify, and backend development, focused on building intuitive, high-performing, and visually engaging digital experiences.
         </p>
         
       </div>
